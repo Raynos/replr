@@ -64,7 +64,9 @@ class ReplrServer extends EventEmitter
         @starting = false
         callback err if callback
 
-    if typeof @options.port == 'number'
+    if @options.port == 0
+      onVerified null, 'free'
+    else if typeof @options.port == 'number'
       portscanner.checkPortStatus @options.port, '127.0.0.1', onVerified
     else 
       onVerified null, 'free'
