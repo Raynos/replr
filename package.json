@@ -12,7 +12,6 @@
     "url": "http://github.com/robskillington"
   },
   "scripts": {
-    "prepublish": "coffee --compile --output lib/ src/"
   },
   "dependencies": {
     "async": "0.2.9",
