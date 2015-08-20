@@ -1,5 +1,5 @@
 {
-  "name": "replr",
+  "name": "raynos-replr",
   "description": "Remote REPL access for Node apps/services with Cluster hosted support",
   "version": "0.2.5-port-0-support",
   "repository": {
